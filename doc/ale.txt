@@ -1853,6 +1853,8 @@ g:ale_popup_menu_enabled                             *g:ale_popup_menu_enabled*
   capabilities in the right click mouse menu when there's a LSP server or
   tsserver available. See |ale-refactor|.
 
+  This feature is only supported in GUI versions of Vim.
+
   This setting must be set to `1` before ALE is loaded for this behavior
   to be enabled. See |ale-lint-settings-on-startup|.
 
@@ -2697,6 +2699,7 @@ documented in additional help files.
   eruby...................................|ale-eruby-options|
     ruumba................................|ale-eruby-ruumba|
   fish....................................|ale-fish-options|
+    fish_indent...........................|ale-fish-fish_indent|
   fortran.................................|ale-fortran-options|
     gcc...................................|ale-fortran-gcc|
     language_server.......................|ale-fortran-language-server|
@@ -2741,6 +2744,7 @@ documented in additional help files.
     hfmt..................................|ale-haskell-hfmt|
     hindent...............................|ale-haskell-hindent|
     hlint.................................|ale-haskell-hlint|
+    hls...................................|ale-haskell-hls|
     stack-build...........................|ale-haskell-stack-build|
     stack-ghc.............................|ale-haskell-stack-ghc|
     stylish-haskell.......................|ale-haskell-stylish-haskell|
@@ -2984,6 +2988,7 @@ documented in additional help files.
   terraform...............................|ale-terraform-options|
     terraform-fmt-fixer...................|ale-terraform-fmt-fixer|
     terraform.............................|ale-terraform-terraform|
+    terraform-ls..........................|ale-terraform-terraform-ls|
     terraform-lsp.........................|ale-terraform-terraform-lsp|
     tflint................................|ale-terraform-tflint|
   tex.....................................|ale-tex-options|

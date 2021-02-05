@@ -161,6 +161,7 @@ formatting.
   * [erlc](http://erlang.org/doc/man/erlc.html)
 * Fish
   * fish [-n flag](https://linux.die.net/man/1/fish)
+  * [fish_indent](https://fishshell.com/docs/current/cmds/fish_indent.html)
 * Fortran
   * [gcc](https://gcc.gnu.org/)
   * [language_server](https://github.com/hansec/fortran-language-server)
@@ -212,6 +213,7 @@ formatting.
   * [hie](https://github.com/haskell/haskell-ide-engine)
   * [hindent](https://hackage.haskell.org/package/hindent)
   * [hlint](https://hackage.haskell.org/package/hlint)
+  * [hls](https://github.com/haskell/haskell-language-server)
   * [ormolu](https://github.com/tweag/ormolu)
   * [stack-build](https://haskellstack.org/) :floppy_disk:
   * [stack-ghc](https://haskellstack.org/)
@@ -495,7 +497,10 @@ formatting.
 * Tcl
   * [nagelfar](http://nagelfar.sourceforge.net) :floppy_disk:
 * Terraform
-  * [fmt](https://github.com/hashicorp/terraform)
+  * [terraform](https://github.com/hashicorp/terraform)
+  * [terraform-fmt-fixer](https://github.com/hashicorp/terraform)
+  * [terraform-ls](https://github.com/hashicorp/terraform-ls)
+  * [terraform-lsp](https://github.com/juliosueiras/terraform-lsp)
   * [tflint](https://github.com/wata727/tflint)
 * Texinfo
   * [alex](https://github.com/wooorm/alex) :floppy_disk:

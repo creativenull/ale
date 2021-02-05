@@ -152,6 +152,7 @@ Notes:
   * `erlc`
 * Fish
   * `fish` (-n flag)
+  * `fish_indent`
 * Fortran
   * `gcc`
   * `language_server`
@@ -203,6 +204,7 @@ Notes:
   * `hie`
   * `hindent`
   * `hlint`
+  * `hls`
   * `ormolu`
   * `stack-build`!!
   * `stack-ghc`
@@ -486,7 +488,10 @@ Notes:
 * Tcl
   * `nagelfar`!!
 * Terraform
-  * `fmt`
+  * `terraform`
+  * `terraform-fmt-fixer`
+  * `terraform-ls`
+  * `terraform-lsp`
   * `tflint`
 * Texinfo
   * `alex`!!
