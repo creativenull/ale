@@ -52,6 +52,8 @@ formatting.
   * [shfmt](https://github.com/mvdan/sh)
 * Bats
   * [shellcheck](https://www.shellcheck.net/)
+* Bazel
+  * [buildifier](https://github.com/bazelbuild/buildtools)
 * BibTeX
   * [bibclean](http://ftp.math.utah.edu/pub/bibclean/)
 * Bourne Shell
@@ -157,8 +159,10 @@ formatting.
   * [ruumba](https://github.com/ericqweinstein/ruumba)
 * Erlang
   * [SyntaxErl](https://github.com/ten0s/syntaxerl)
+  * [dialyzer](http://erlang.org/doc/man/dialyzer.html)
   * [elvis](https://github.com/inaka/elvis) :floppy_disk:
   * [erlc](http://erlang.org/doc/man/erlc.html)
+  * [erlfmt](https://github.com/WhatsApp/erlfmt)
 * Fish
   * fish [-n flag](https://linux.die.net/man/1/fish)
   * [fish_indent](https://fishshell.com/docs/current/cmds/fish_indent.html)
@@ -221,10 +225,11 @@ formatting.
 * HCL
   * [terraform-fmt](https://github.com/hashicorp/terraform)
 * HTML
-  * [HTMLHint](http://htmlhint.com/)
   * [alex](https://github.com/wooorm/alex) :floppy_disk:
+  * [angular](https://www.npmjs.com/package/@angular/language-server)
   * [fecs](http://fecs.baidu.com/)
   * [html-beautify](https://beautifier.io/)
+  * [htmlhint](http://htmlhint.com/)
   * [prettier](https://github.com/prettier/prettier)
   * [proselint](http://proselint.com/)
   * [tidy](http://www.html-tidy.org/)
@@ -496,6 +501,8 @@ formatting.
   * [sourcekit-lsp](https://github.com/apple/sourcekit-lsp)
   * [swiftformat](https://github.com/nicklockwood/SwiftFormat)
   * [swiftlint](https://github.com/realm/SwiftLint)
+* systemd
+  * [systemd-analyze](https://www.freedesktop.org/software/systemd/man/systemd-analyze.html) :floppy_disk:
 * Tcl
   * [nagelfar](http://nagelfar.sourceforge.net) :floppy_disk:
 * Terraform
