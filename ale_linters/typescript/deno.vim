@@ -19,7 +19,7 @@ call ale#linter#Define('typescript', {
 function! ale_linters#typescript#deno#GetInitializationOptions(buffer) abort
     let l:init_options = ale#Var(a:buffer, 'typescript_deno_init_options')
 
-    if empty(l:init_options.importMap) == 0
+    if exists('l:init_options.importMap') == 1
         l:init_options = ale#handlers#deno#GetProjectRoot(a:buffer) . '/' . l:init_options.importMap
     endif
 
