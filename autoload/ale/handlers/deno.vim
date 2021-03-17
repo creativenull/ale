@@ -2,7 +2,6 @@
 " Description: Handler functions for Deno.
 
 call ale#Set('deno_executable', 'deno')
-call ale#Set('deno_unstable', 0)
 call ale#Set('deno_lsp_project_root', '')
 
 function! ale#handlers#deno#GetExecutable(buffer) abort

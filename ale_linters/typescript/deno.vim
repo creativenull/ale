@@ -1,11 +1,12 @@
 " Author: Mohammed Chelouti - https://github.com/motato1
+"         Arnold Chand <creativenull@outlook.com>
 " Description: Deno lsp linter for TypeScript files.
 
-call ale#Set('typescript_deno_init_options', {
-        \ 'enable': v:true,
-        \ 'lint' : v:true,
-        \ 'unstable': v:false,
-    \ })
+call ale#Set('typescript_deno_options', {
+    \ 'enable': v:true,
+    \ 'lint' : v:true,
+    \ 'unstable': v:false,
+\ })
 
 call ale#linter#Define('typescript', {
 \   'name': 'deno',
@@ -17,10 +18,11 @@ call ale#linter#Define('typescript', {
 \})
 
 function! ale_linters#typescript#deno#GetInitializationOptions(buffer) abort
-    let l:init_options = ale#Var(a:buffer, 'typescript_deno_init_options')
+    let l:init_options = ale#Var(a:buffer, 'typescript_deno_options')
 
+    " Include import map fullpath, if filename provided
     if exists('l:init_options.importMap') == 1
-        l:init_options.importMap = ale#handlers#deno#GetProjectRoot(a:buffer) . '/' . l:init_options.importMap
+        let l:init_options.importMap = ale#handlers#deno#GetProjectRoot(a:buffer) . '/' . l:init_options.importMap
     endif
 
     return l:init_options
